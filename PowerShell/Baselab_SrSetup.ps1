@@ -1,4 +1,4 @@
-#Set Execution Policy to allow script to run
+#Set Execution Policy to allow script to run - changes 2/3/23
 Set-ExecutionPolicy Bypass -Scope Process -Force 
 #Choco install and Choco Apps
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
